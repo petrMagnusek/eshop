@@ -1,12 +1,13 @@
-package eshop.product.dtos;
+package eshop.product.entity;
 
 
 
+
+import eshop.product.entity.Product;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 @Entity
 @Table(name="orders")

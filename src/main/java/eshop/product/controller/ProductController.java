@@ -1,6 +1,6 @@
 package eshop.product.controller;
 
-import eshop.product.dtos.Product;
+import eshop.product.entity.Product;
 import eshop.product.exception.NoSuchProductExistsException;
 import eshop.product.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package eshop.product.service.impl;
 
-import eshop.product.dtos.Order;
+import eshop.product.entity.Order;
 import eshop.product.exception.NoSuchProductExistsException;
 import eshop.product.repository.OrderJpaRepository;
 import eshop.product.service.OrderService;

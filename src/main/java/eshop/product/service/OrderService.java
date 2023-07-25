@@ -1,7 +1,6 @@
 package eshop.product.service;
 
-import eshop.product.dtos.Order;
-import eshop.product.dtos.Product;
+import eshop.product.entity.Order;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

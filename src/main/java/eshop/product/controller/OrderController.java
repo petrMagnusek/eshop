@@ -1,6 +1,6 @@
 package eshop.product.controller;
 
-import eshop.product.dtos.Order;
+import eshop.product.entity.Order;
 import eshop.product.exception.NoSuchOrderExistsException;
 import eshop.product.exception.NoSuchProductExistsException;
 import eshop.product.service.OrderService;

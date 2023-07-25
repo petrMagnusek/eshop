@@ -1,4 +1,4 @@
-package eshop.product.dtos;
+package eshop.product.entity;
 
 
 
