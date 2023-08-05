@@ -23,7 +23,7 @@ public class SpringSecurity {
                 .authorizeHttpRequests((requests) -> requests
                         .antMatchers("/login/**").permitAll()
                         .antMatchers("/registration/**").permitAll()
-                        .antMatchers("/user/**").authenticated()
+                        .antMatchers("/user/**").hasAnyRole("USER", "ADMIN")
                         .antMatchers("/admin/**").hasAnyRole("ADMIN")
                         .anyRequest().authenticated()
                 )
